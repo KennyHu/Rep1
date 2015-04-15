@@ -9,7 +9,7 @@ namespace CFF
 {
    class Program
    {
-      private static string progressBar = ".\\|/ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      private static string progressBar = ".\\|/";
       private static string CFF_MAP_FILE_NAME = "917CEE4B-0CFF-417E-810D-9435574FED63.cff";
       private static string CFF_MAP_FILE_NAME_BAK = "917CEE4B-0BAC-417E-810D-9435574FED63.cfb";
 
