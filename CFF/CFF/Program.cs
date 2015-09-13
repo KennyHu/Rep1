@@ -240,7 +240,6 @@ namespace CFF
       private static void closeStreamReader(StreamReader streamReader)
       {
          streamReader.Close();
-         streamReader.Dispose();
       }
 
       /// <summary>
@@ -259,7 +258,6 @@ namespace CFF
       private static void closeStreamWriter(StreamWriter streamWriter)
       {
          streamWriter.Close();
-         streamWriter.Dispose();
       }
 
       /// <summary>
